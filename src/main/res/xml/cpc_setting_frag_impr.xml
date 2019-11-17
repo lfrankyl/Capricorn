@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<EditTextPreference 
+	    android:icon="@drawable/cpc_law_frag"/>
+    
+	<EditTextPreference 
+	    android:key="@string/pref_Info_Key"
+		android:title="@string/pref_Info_Cat_Title" 
+		android:summary="@string/pref_Info_Title"
+		android:selectable="false" />
+	<EditTextPreference
+	    android:key="@string/pref_Impressum_Key"
+		android:title="@string/pref_Publisher_Title" 
+		android:summary="@string/pref_Impressum_Sum"
+		android:selectable="false" />
+	<EditTextPreference
+	    android:key="@string/pref_Haftungsausschluss_Key"
+		android:title="@string/pref_Haftungsausschluss_Title"
+		android:summary="@string/pref_Haftungsausschluss_Sum"
+		android:selectable="false" />
+	<EditTextPreference
+	    android:key="@string/pref_DataPrivacy_Key"
+		android:title="@string/pref_DataPrivacy_Title"
+		android:summary="@string/pref_DataPrivacy_Sum"
+		android:selectable="false" />
+	<EditTextPreference
+		android:key="@string/pref_DataPrivacy2_Key"
+		android:summary="@string/pref_Calls_FreeNumb_Info1"
+		android:selectable="false" />
+	<EditTextPreference
+		android:key="@string/pref_DataPrivacy3_Key"
+		android:summary="@string/pref_Calls_FreeNumb_Info2"
+		android:selectable="false" />
+    <EditTextPreference
+        android:key="@string/pref_DataPrivacy4_Key"
+        android:summary="@string/pref_Calls_FreeNumb_Info3"
+        android:selectable="false" />
+
+	<PreferenceScreen
+		android:title="@string/pref_OSS_Title"
+		android:icon="@drawable/cpc_oss">
+		<EditTextPreference
+			android:summary="@string/pref_OSS_Expl"
+			android:selectable="false" />
+		<EditTextPreference
+			android:title="@string/pref_OSS_AndrSupTitle"
+			android:summary="@string/pref_OSS_AndrSupSum1"
+			android:selectable="false" />
+		<EditTextPreference
+			android:summary="@string/pref_OSS_AndrSupSum2"
+			android:selectable="false" />
+		<EditTextPreference
+			android:title="@string/pref_OSS_AndrOSPTitle"
+			android:summary="@string/pref_OSS_AndrOSPSum1"
+			android:selectable="false" />
+		<EditTextPreference
+			android:summary="@string/pref_OSS_AndrOSPSum2"
+			android:selectable="false" />
+	</PreferenceScreen>
+
+</PreferenceScreen>

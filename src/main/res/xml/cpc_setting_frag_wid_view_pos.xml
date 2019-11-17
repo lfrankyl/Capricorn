@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<EditTextPreference 
+	    android:icon="@drawable/cpc_view_pos_frag"/>
+    
+    <ListPreference 
+        android:key="@string/pref_View1_Key"
+	    android:icon="@drawable/capricorn_frag"
+		android:title="@string/pref_View1_Title" 
+		android:entries="@array/viewoptions"
+		android:entryValues="@array/viewoptions_Values" 
+		android:defaultValue="@string/pref_View1_Default"
+		android:summary="@string/pref_View1_Sum" />
+
+	<ListPreference 
+	    android:key="@string/pref_View2_Key"
+	    android:icon="@drawable/capricorn_frag"
+		android:title="@string/pref_View2_Title" 
+		android:entries="@array/viewoptions"
+		android:entryValues="@array/viewoptions_Values" 
+		android:defaultValue="@string/pref_View2_Default"
+		android:summary="@string/pref_View2_Sum" />
+
+	<ListPreference 
+	    android:key="@string/pref_View3_Key"
+	    android:icon="@drawable/capricorn_frag"
+		android:title="@string/pref_View3_Title" 
+		android:entries="@array/viewoptions"
+		android:entryValues="@array/viewoptions_Values" 
+		android:defaultValue="@string/pref_View3_Default"
+		android:summary="@string/pref_View3_Sum" />
+
+	<ListPreference 
+	    android:key="@string/pref_View4_Key"
+	    android:icon="@drawable/capricorn_frag"
+		android:title="@string/pref_View4_Title" 
+		android:entries="@array/viewoptions"
+		android:entryValues="@array/viewoptions_Values" 
+		android:defaultValue="@string/pref_View4_Default"
+		android:summary="@string/pref_View4_Sum" />
+
+	<ListPreference 
+	    android:key="@string/pref_View5_Key"
+	    android:icon="@drawable/capricorn_frag"
+		android:title="@string/pref_View5_Title" 
+		android:entries="@array/viewoptions"
+		android:entryValues="@array/viewoptions_Values" 
+		android:defaultValue="@string/pref_View5_Default"
+		android:summary="@string/pref_View5_Sum" />
+
+	<ListPreference 
+	    android:key="@string/pref_View6_Key"
+	    android:icon="@drawable/capricorn_frag"
+		android:title="@string/pref_View6_Title" 
+		android:entries="@array/viewoptions"
+		android:entryValues="@array/viewoptions_Values" 
+		android:defaultValue="@string/pref_View6_Default"
+		android:summary="@string/pref_View6_Sum" />
+	
+	<ListPreference 
+	    android:key="@string/pref_View7_Key"
+	    android:icon="@drawable/capricorn_frag"
+		android:title="@string/pref_View7_Title" 
+		android:entries="@array/viewoptions"
+		android:entryValues="@array/viewoptions_Values" 
+		android:defaultValue="@string/pref_View7_Default"
+		android:summary="@string/pref_View7_Sum" />
+	
+</PreferenceScreen>

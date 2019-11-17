@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory 
+	    android:title="@string/pref_CurVal_Title_Standard">
+	    <ListPreference
+	   		android:icon="@drawable/capricorn_frag"
+			android:selectable="false" />
+	   		    			    	    
+		<ListPreference 
+			android:key="@string/pref_CurVal_Std_Key"
+			android:summary="@string/DefaultText"
+			android:selectable="false" />
+	</PreferenceCategory>
+
+		<PreferenceCategory 
+	    android:title="@string/pref_CurVal_WLANDataInfo1">
+		<ListPreference 
+			android:icon="@drawable/cpc_wlan_frag"
+	    	android:selectable="false" />
+		<ListPreference 
+		    android:key="@string/pref_CurVal_WLANMeasured_Key"
+			android:title="@string/pref_CurVal_WLANDataInfo2" 
+			android:summary="@string/DefaultText"
+			android:selectable="false" />
+		<ListPreference 
+		    android:key="@string/pref_CurVal_WLANDisplay_Key"
+			android:title="@string/pref_CurVal_WLANDataInfo3" 
+			android:summary="@string/DefaultText"
+			android:selectable="false" />
+	</PreferenceCategory>
+
+		<PreferenceCategory 
+		    android:title="@string/pref_CostRelevantData_Title">
+			<ListPreference
+				android:icon="@drawable/cpc_cost_rel_data_frag"
+			    android:selectable="false"/>
+			<ListPreference
+			    android:key="@string/pref_CostRelevantData_Key"
+			    android:title="@string/pref_Cur_Bill_Period_Title"
+			    android:summary="@string/cpc_nd"
+			    android:selectable="false"/>
+		</PreferenceCategory>
+		
+		<PreferenceCategory 
+		    android:title="@string/pref_MobileScreen_Title">
+			<ListPreference 
+			    android:icon="@drawable/cpc_mobdata_gen_frag"
+		    	android:selectable="false" />
+			<ListPreference 
+			    android:key="@string/pref_CurVal_MobileMeasured_Key"
+		    	android:title="@string/pref_CurVal_MobileDataInfo2" android:summary="@string/DefaultText"
+				android:selectable="false" />
+			<ListPreference android:key="@string/pref_CurVal_MobileMeanPerDay_Key"
+				android:title="@string/pref_CurVal_MobileDataInfo3" android:summary="@string/DefaultText"
+				android:selectable="false" />
+			<ListPreference android:key="@string/pref_CurVal_MobileTotal_Key"
+				android:title="@string/pref_CurVal_MobileDataInfo4" android:summary="@string/DefaultText"
+				android:selectable="false" />
+		</PreferenceCategory>
+
+		<PreferenceCategory 
+		    android:title="@string/pref_CurVal_CallDataInfo1">
+			<ListPreference 
+				android:icon="@drawable/cpc_phone_gen_frag"
+				android:selectable="false" />
+		    <ListPreference android:key="@string/pref_CurVal_Call_Outgoing_Key"
+				android:title="@string/pref_CurVal_CallDataInfo2" android:summary="@string/DefaultText"
+				android:selectable="false" />
+			<ListPreference android:key="@string/pref_CurVal_Call_Incoming_Key"
+				android:title="@string/pref_CurVal_CallDataInfo3" android:summary="@string/DefaultText"
+				android:selectable="false" />
+			<ListPreference android:key="@string/pref_CurVal_Call_Missed_Key"
+				android:title="@string/pref_CurVal_CallDataInfo4" android:summary="@string/DefaultText"
+				android:selectable="false" />
+		</PreferenceCategory>
+
+	<PreferenceCategory
+		android:title="@string/pref_CurVal_Title_DeviceInfo">
+		<ListPreference
+			android:icon="@drawable/capricorn_frag"
+			android:selectable="false" />
+
+		<ListPreference
+			android:title="@string/pref_CurVal_Title_SDK"
+			android:key="@string/pref_CurVal_SDK_Key"
+			android:summary="@string/DefaultText"
+			android:selectable="false" />
+		<ListPreference
+			android:title="@string/pref_CurVal_FingerPrint"
+			android:key="@string/pref_CurVal_FingerPrint_Key"
+			android:summary="@string/DefaultText"
+			android:selectable="false" />
+	</PreferenceCategory>
+
+</PreferenceScreen>

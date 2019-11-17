@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   	<string name="pref_GeneralHelp1">Capricorn is an App to show up to 8 different system resources.
+		This system resources can be shown also on homescreen with widgets.</string>
+	<string name="pref_GeneralHelp2">
+		Possibilities to display:\n\n1. With the App.\nFor that you can select the required category via tabs.
+		To update the data in the current view simply press the button "Update".
+		The font size in the App can be adapted in the settings independently from the font size of the widgets.
+
+	</string>
+	<string name="pref_GeneralHelp3">
+		2. With widgets.\nThis is the main use case of Capricorn. There are 3 different widget sizes available.
+		With 3 (2 columns), 5 (3 columns) or 7 (4 columns) different display options, which can be configured independently.
+		All widgets on homescreen are one row high.
+	</string>
+
+	<string name="pref_GeneralHelp4">
+		The widgets are scalable horizontally and vertically (if supported by the device and the system).
+		If the system scaling does not work, manual scaling is possible. The icons automatically scale with the widget size.
+		The font size can be adjusted.
+	</string>
+	<string name="pref_GeneralHelp5">Supported system resources:\n
+			- Current battery level in \u0025\n
+			- Free memory of RAM in (GB, MB, KB, Byte)\n
+			- Free internal memory in (GB, MB, KB, Byte)\n
+			- Free external memory (removable SD card) in (GB, MB, KB, Byte)\n
+			- Usage of mobile data\n
+			- Usage of free minutes and SMS if necessary\n
+			- Add SMS to free minutes if supported by contracts\n
+			- Transmitted WIFI data</string>
+	<string name="pref_GeneralHelp6">
+			- Overall CPU usage in \u0025\n(unfortunately does not work on Android 8.0 (Oreo) devices. The app shows \u0022n/w\u0022 instead)\n
+			- Screen brightness as the value from the slider of the settings menu. The real value can be different if automatic brightness is selected.\n
+	</string>
+	<string name="pref_GeneralHelp7">To evaluate the usage of free minutes, the app needs access to telephone data and SMS.
+		Capricorn neither starts calls nor sniffes calls and even does not send or read SMS.
+		The data are only be used to calculate free minutes correctly.</string>
+
+	<string name="pref_CostRelDataHelp1">Settings for cost relevant data (calls \u0026 data)\n\nCapricorn
+		does not gather any personal data from any source of the device or from the provider.
+		It calculates all data only by the values done in the settings and by the data provided by the device.
+	</string>
+	<string name="pref_CostRelDataHelp2">That means for mobile and WIFI data, that the device provides data until the last system boot.\nFor
+		calls Capricorn reads out the data from the call log.
+		If this will be cleared, Capricorn can not calculate data regarding calls.</string>
+
+   	<string name="pref_CostRelDataHelp3">For a correct calculation it is necessary to make some inputs:\n\n
+   	    											- How shall the calculation been done\n \u0009\u002D\u002D without correction\n \u0009\u002D\u002D with reference value\n \u0009\u002D\u002D with the billing period by your provider\n
+													- Date of the next cycle change\n
+													- Time period (monthly, 30-days)\n
+													- Activation of data monitoring\n
+	</string>
+   	<string name="pref_CostRelDataHelp4">	  \u0020- View of used or left data\n
+													- High speed limit for mobile data (or personal max value if no flat)\n
+													- Already used data, if the start of the measurement is within a running cycle</string>
+	<string name="pref_CostRelDataHelp5">	- Activation of calls monitoring\n
+											- View of used or left free minutes\n
+											- Number of free minutes (or personal max value if no free minuntes or calls flat)\n
+											- Already used free minutes, if the start of the measurement is within a running cycle</string>
+	<string name="pref_CostRelDataHelp6">Used data and calls are positiv on the widget, left data and calls are negativ on the widget.\n\nIf
+											monitoring of data and calls is activated, the widget shows the usage during the pilling period with a green dot
+	    									if the usage is within a linear calculated range.</string>
+	<string name="pref_CostRelDataHelp7">Exeeds the current usage the calculated limit Capricorn shows a red dot.</string>
+
+	<string name="pref_WlanHelp1">The app always shows the sum of sent and received data.
+		You can use different start values:\n\nStart values of WIFI-data:</string>
+	<string name="pref_WlanHelp2">With an input of a valid value (0 to 9999 TByte) Capricorn shows the WIFI data from this time plus the Start value.\n\nWith
+		an input of „1 Byte“ Capricorn does not make any calculation and shows the transmitted WIFI data since the last system boot.
+	</string>
+	<string name="pref_WidViewPosHelp1">The position of the views in the widget can be freely defined. The larger versions takes the settings of the smaller ones.</string>
+	<string name="pref_WidViewPosHelp2">- 2x1 -> 1 to 3 (small)\n- 3x1 -> 1 to 5 (medium)\n- 4x1 -> 1 to 7 (large)\n</string>
+	<string name="pref_CurValHelp1">All Resourcen can also been shown in the app.
+		The resources are clustered in groups general, data, calls, WIFI and network.\nWith buttons you can select the category.</string>
+	<string name="pref_CurValHelp2">The values can be updated with a corresponding button.</string>
+
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <item name="lcapricorn_layout_small" type="layout">@layout/capricorn_layout_small</item>
+    <item name="lcapricorn_layout_medium" type="layout">@layout/capricorn_layout_medium</item>
+    <item name="lcapricorn_layout_large" type="layout">@layout/capricorn_layout_large</item>
+</resources>

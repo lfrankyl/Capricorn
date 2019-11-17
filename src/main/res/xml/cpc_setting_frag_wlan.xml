@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<EditTextPreference 
+	    android:icon="@drawable/cpc_wlan_frag"/>
+    
+	<EditTextPreference 
+		android:key="@string/pref_wlanStartDate_Key"
+		android:title="@string/pref_wlanStartDate_Title"
+		android:summary="@string/DefaultText"
+		android:selectable="false" />
+		
+	<de.franky.l.capricorn.Cpc_Dlg_NuPi_WLAN_RefVal
+		android:key="@string/pref_NuPiRef_Wlan_Key"
+		android:title="@string/pref_wlanRefVal_Title"
+		android:persistent="true" 
+		android:summary="@string/pref_wlanRefVal_Sum" />
+</PreferenceScreen>

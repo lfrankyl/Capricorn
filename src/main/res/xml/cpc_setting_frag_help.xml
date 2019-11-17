@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceScreen
+	    android:title="@string/pref_General_Cat_Title"
+		android:icon="@drawable/capricorn_frag">
+	    <EditTextPreference 
+		    android:icon="@drawable/capricorn_frag"/>
+		<EditTextPreference 
+			android:summary="@string/pref_GeneralHelp1"
+			android:selectable="false" />
+		<EditTextPreference 
+			android:summary="@string/pref_GeneralHelp2"
+			android:selectable="false" />
+		<EditTextPreference 
+			android:summary="@string/pref_GeneralHelp3"
+			android:selectable="false" />
+		<EditTextPreference 
+			android:summary="@string/pref_GeneralHelp4"
+			android:selectable="false" />
+		<EditTextPreference
+			android:summary="@string/pref_GeneralHelp5"
+			android:selectable="false" />
+		<EditTextPreference
+			android:summary="@string/pref_GeneralHelp6"
+			android:selectable="false" />
+		<EditTextPreference
+			android:summary="@string/pref_GeneralHelp7"
+			android:selectable="false" />
+	</PreferenceScreen>
+
+	<PreferenceScreen
+	    android:title="@string/pref_View_Cat_Title"
+		android:icon="@drawable/cpc_view_pos_frag">
+	    <EditTextPreference 
+		    android:icon="@drawable/cpc_view_pos_frag"/>
+		<EditTextPreference 
+			android:summary="@string/pref_WidViewPosHelp1"
+			android:selectable="false" />
+		<EditTextPreference 
+			android:summary="@string/pref_WidViewPosHelp2"
+			android:selectable="false" />
+	</PreferenceScreen>
+	
+	<PreferenceScreen
+	    android:title="@string/pref_CostRelevantData_Title"
+		android:icon="@drawable/cpc_cost_rel_data_frag">
+	    <EditTextPreference 
+		    android:icon="@drawable/cpc_cost_rel_data_frag"/>
+		<EditTextPreference 
+			android:summary="@string/pref_CostRelDataHelp1"
+			android:selectable="false" />
+		<EditTextPreference 
+			android:summary="@string/pref_CostRelDataHelp2"
+			android:selectable="false" />
+		<EditTextPreference 
+			android:summary="@string/pref_CostRelDataHelp3"
+			android:selectable="false" />
+		<EditTextPreference 
+			android:summary="@string/pref_CostRelDataHelp4"
+			android:selectable="false" />
+		<EditTextPreference
+			android:summary="@string/pref_CostRelDataHelp5"
+			android:selectable="false" />
+		<EditTextPreference
+			android:summary="@string/pref_CostRelDataHelp6"
+			android:selectable="false" />
+		<EditTextPreference
+			android:summary="@string/pref_CostRelDataHelp7"
+			android:selectable="false" />
+
+	</PreferenceScreen>
+	
+	<PreferenceScreen
+	    android:title="@string/pref_CurVal_WLANDataInfo1"
+		android:icon="@drawable/cpc_wlan_frag">
+	    <EditTextPreference 
+		    android:icon="@drawable/cpc_wlan_frag"/>
+		<EditTextPreference 
+			android:summary="@string/pref_WlanHelp1"
+			android:selectable="false" />
+		<EditTextPreference 
+			android:summary="@string/pref_WlanHelp2"
+			android:selectable="false" />
+	</PreferenceScreen>
+
+		<PreferenceScreen
+	    android:title="@string/pref_CurVal"
+		android:icon="@drawable/cpc_cur_val_frag">
+  		<EditTextPreference 
+		    android:icon="@drawable/cpc_cur_val_frag"/>
+		<EditTextPreference 
+			android:summary="@string/pref_CurValHelp1"
+			android:selectable="false" />
+		<EditTextPreference 
+			android:summary="@string/pref_CurValHelp2"
+			android:selectable="false" />
+  	</PreferenceScreen>
+
+		
+</PreferenceScreen>

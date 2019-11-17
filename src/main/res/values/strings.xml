@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Capricorn</string>
+
+    <string name="Perm_Calls_Rationale">auf das Telefonprotokoll um Telefonanrufe auswerten zu können.</string>
+    <string name="Perm_Calls_Granted">Zugriff auf Telefonprotokoll wurde gewährt</string>
+    <string name="Perm_Calls_Denied">Zugriff auf Telefonprotokoll wurde NICHT gewährt. Anrufe können durch Capricorn nicht ausgewertet werden</string>
+
+    <string name="Perm_SMS_Rationale">auf die Anzahl der gesendeten SMS, um bei entsprechenden Verträgen die SMS und die Anrufe zu addieren.</string>
+    <string name="Perm_SMS_Granted">Zugriff auf SMS wurde gewährt</string>
+    <string name="Perm_SMS_Denied">Zugriff auf SMS wurde NICHT gewährt. SMS können durch Capricorn nicht ausgewertet werden</string>
+
+    <string name="pref_Title_Settings">Capricorn Einstellungen</string>
+    <string name="pref_CurVal_Std_Key" translatable="false">pref_CurVal_Std_Key</string>
+
+    <string name="pref_settings_header">Passen Sie Capricorn an Ihre Bedürfnisse an</string>
+
+    <string name="pref_Intervall_Key" translatable="false">pref_Intervall_Key</string>
+    <string name="pref_Intervall_Title">Aktualisierungs Intervall [sec]</string>
+    <string name="pref_Intervall_Sum">Eingestelltes Aktualisierungsintervall: </string>
+    <string name="pref_Intervall_Default" translatable="false">3000</string>
+    <string name="pref_Intervall_Unit"> sec</string>
+
+    <string name="pref_TextSize_Key" translatable="false">pref_TextSize_Key</string>
+    <string name="pref_TextSize_Title">Textgröße Widget [Punkte]</string>
+    <string name="pref_TextSize_Default" translatable="false">12</string>
+    <string name="pref_TextSize_Unit">Punkte</string>
+    <string name="pref_TextSize_Sum">Eingestellte Textgröße im Widget:</string>
+
+    <string name="pref_TextSizeApp_Key" translatable="false">pref_TextSizeApp_Key</string>
+    <string name="pref_TextSizeApp_Title">Textgröße App [Punkte]</string>
+    <string name="pref_TextSizeApp_Default" translatable="false">12</string>
+    <string name="pref_TextSizeApp_Unit">Punkte</string>
+    <string name="pref_TextSizeApp_Sum">Eingestellte Textgröße der App:</string>
+
+    <string name="pref_Background_Key" translatable="false">pref_Background_2_Key</string>
+    <string name="pref_Background_Title">Widget Hintergrund</string>
+    <string name="pref_Background_Default" translatable="false">0</string>
+    <string name="pref_Background_Sum">Eingestellter Hintergrund:</string>
+
+    <string name="pref_WdgtFontcolor_Key" translatable="false">pref_Fontcolor_Key</string>
+    <string name="pref_WdgtFontcolor_Title">Widget Schriftfarbe</string>
+    <string name="pref_WdgtFontcolor_Default" translatable="false">0</string>
+    <string name="pref_WdgtFontcolor_Sum">Eingestellte Widget Schriftfarbe:</string>
+
+    <string name="pref_CostRelevantData_Title">Kosten relevante Daten</string>
+    <string name="pref_CostRelevantData_Key">pref_CostRelevantData_Key</string>
+    <string name="pref_Cur_Bill_Period_Title">Aktueller Abrechnungszeitraum</string>
+    <string name="pref_Cur_Bill_Period_Title1">Wechseldatum:</string>
+    <string name="pref_Cur_Bill_Period_Title2">noch</string>
+    <string name="pref_Cur_Bill_Period_Title3">Tage</string>
+    <string name="pref_Cur_Bill_Period_Title4">Zykluslänge:</string>
+    <string name="pref_Cur_Bill_Period_Title5">monatlich</string>
+
+    <string name="pref_MobileScreen_Key" translatable="false">pref_MobileScreen_Key</string>
+    <string name="pref_MobileScreen_Title">Mobile Daten</string>
+
+
+    <string name="pref_MobileOptions_Key" translatable="false">pref_MobileOptions_Key</string>
+    <string name="pref_MobileOptions_Title">Datenberechnung</string>
+    <string name="pref_MobileOptions_Sum">Ausgewählt ist: </string>
+    <string name="pref_MobileOptions_Default" translatable="false">1</string>
+
+    <string name="pref_NuPiCycle_Key" translatable="false">pref_NuPiCycle_Key</string>
+    <string name="pref_NuPiRef_Wlan_Key" translatable="false">pref_NuPiRef_Wlan_Key</string>
+    <string name="pref_NuPiRef_Mob_Key" translatable="false">pref_NuPiRef_Mob_Key</string>
+    <string name="pref_NuPiMax_Mob_Key" translatable="false">pref_NuPiMax_Mob_Key</string>
+    <string name="pref_NuPiRef_Calls_Key" translatable="false">pref_NuPiRef_Calls_Key</string>
+    <string name="pref_NuPiMax_Calls_Key" translatable="false">pref_NuPiMax_Calls_Key</string>
+    <string name="pref_NuPi_BckgrdTransp_Key" translatable="false">pref_NuPi_BckgrdTransp_Key</string>
+
+
+    <string name="pref_MobileMessung_Key" translatable="false">pref_MobileOffset_Key</string>
+    <string name="pref_MobileRefVal_Title">Verbrauchte mobile Daten</string>
+    <string name="pref_MobileRefVal_Explanation">Bitte geben Sie die für den Abrechnungszeitraum bereits verbrauchten Daten in MByte ein z.B. den Wert aus der App. Einstellungen oder den tatsächlichen Wert von Ihrem Dienstanbieter.</string>
+    <string name="pref_MobileRefVal_Sum">Verbrauchte mobile Daten: </string>
+    <string name="pref_MobileRefVal_Default" translatable="false">0</string>
+    <string name="pref_MobileRefVal_Unit">MByte</string>
+
+    <string name="pref_MobileCycle_Cat_Title">Zyklus Optionen</string>
+    <string name="pref_MobileCycle_Cat_Key" translatable="false">pref_MobileCycle_Cat_Key</string>
+
+    <string name="pref_MobileCycle_Key" translatable="false">pref_MobileCycle_Key</string>
+    <string name="pref_MobileCycle_Title">Zyklus für mobile Daten und Anrufe</string>
+    <string name="pref_MobileCycle_Explanation">Bitte geben Sie den Tag des Monats ein wann die Datenverbrauchsmessung beginnt.</string>
+    <string name="pref_MobileCycle_Sum1">Nächster Reset des Datenverbrauchszyklus am: </string>
+    <string name="pref_MobileCycle_Sum2">. des Monats</string>
+    <string name="pref_MobileCycle_Default" translatable="false">1</string>
+    <string name="pref_MobileCycle_Unit">Datum</string>
+    <string name="pref_MobileCycle_XXDays2Long_Title">Zyklus-Konflikt</string>
+    <string name="pref_MobileCycle_XXDays2Long_Message1">Der eingegebene Wechsel-Tag liegt nicht innerhalb des</string>
+    <string name="pref_MobileCycle_XXDays2Long_Message2">-Tage Zyklus.\n\nDie Berechnung der verbrauchten Freiminuten und des Datenverbrauchs kann nicht korrekt durchgeführt werden.\n\nBitte Wechsel-Tag korrigieren.</string>
+
+    <string name="pref_MobileCycleOption_Key" translatable="false">pref_MobileCycleOption_Key</string>
+    <string name="pref_MobileCycleOption_Title">Zeitraster</string>
+    <string name="pref_MobileCycleOption_Default" translatable="false">0</string>
+    <string name="pref_MobileCycleOption_Sum">Zeitraster eingestellt auf: </string>
+
+    <string name="pref_MobileMonitoring_Key" translatable="false">pref_MobileMonitoring_Key</string>
+    <string name="pref_MobileMonitoring_Title">Monitoring mobile Daten</string>
+    <string name="pref_CallsMonitoring_Key" translatable="false">pref_CallsMonitoring_Key</string>
+    <string name="pref_CallsMonitoring_Title">Monitoring Anrufe</string>
+    <string name="pref_Monitoring_SumOn">ist aktiviert</string>
+    <string name="pref_Monitoring_SumOff">ist deaktiviert</string>
+
+    <string name="pref_CallsIntegrateSMS_Key" translatable="false">pref_CallsIntegrateSMS_Key</string>
+    <string name="pref_CallsIntegrateSMS_Title">SMS</string>
+    <string name="pref_CallsIntegrateSMS_SumOn">werden mitgerechnet</string>
+    <string name="pref_CallsIntegrateSMS_SumOff">werden nicht mitgerechnet</string>
+
+    <string name="pref_MobileView_Key" translatable="false">pref_MobileView_Key</string>
+    <string name="pref_MobileView_Title">Datenanzeige</string>
+    <string name="pref_MobileView_SumOn">noch übrige Daten</string>
+    <string name="pref_MobileView_SumOff">verbrauchte Daten</string>
+
+    <string name="pref_MobileMaxVal_Key" translatable="false">pref_MobileMaxVal_Key</string>
+    <string name="pref_MobileMaxVal">High speed Limit für mobile Daten</string>
+    <string name="pref_MobileMaxVal_Expl">Bitte geben Sie den Schwellwert ein, bei dem Sie gewarnt werden wollen (z.B. den Wert Ihrer High speed flat rate)</string>
+    <string name="pref_MobileMaxVal_Sum">Das High speed Limit für mobile Daten ist: </string>
+    <string name="pref_MobileMaxVal_Default" translatable="false">524288000</string>
+    <string name="pref_MobileMaxVal_Unit">MByte</string>
+
+    <string name="pref_Calls_RefVal_Key" translatable="false">pref_Calls_RefVal_Key</string>
+    <string name="pref_Calls_RefVal_Title">Verbrauchte Freiminuten</string>
+    <string name="pref_Calls_RefVal_Expl">Bitte geben Sie die für den Abrechnungszeitraum bereits verbrauchten Freiminuten ein.</string>
+    <string name="pref_Calls_RefVal_Sum">Bereits verbrauchte Freiminuten: </string>
+    <string name="pref_Calls_RefVal_Default" translatable="false">0</string>
+    <string name="pref_Calls_RefVal_Unit">Min</string>
+
+    <string name="pref_Calls_FreeNumb_Key" translatable="false">pref_Calls_FreeNumb_Key</string>
+    <string name="pref_Calls_FreeNumbArr_Key" translatable="false">pref_Calls_FreeNumbArr_Key</string>
+    <string name="pref_Calls_FreeNumb_Default" translatable="false">0</string>
+    <string name="pref_Calls_FreeNumb_Title">Kostenlose Telefonnummern</string>
+    <string name="pref_Calls_FreeNumb_Title_Delete">Kostenlose Telefonnummern entfernen</string>
+    <string name="pref_Calls_FreeNumb_Sum">hinterlegte kostenlose Telefonnummern</string>
+    <string name="pref_Calls_FreeNumb_Apply">Übernehmen</string>
+    <string name="pref_Calls_FreeNumb_Task">bitte Nummern inkl. internationaler Vorwahl eingeben</string>
+    <string name="pref_Calls_FreeNumb_Expl">Geben Sie hier die Telefon Nummern ein, die bei Ihrem Vertrag kostenlos sind.</string>
+    <string name="pref_Calls_FreeNumb_Delete">Bitte die zu löschende Nummern markieren und mit Übernehmen bestätigen.</string>
+    <string name="pref_Calls_FreeNumb_Info1">Capricorn hat keinen Zugriff auf Ihre Kontaktdaten.\nDaher können, Sie falls gewünscht, Telefonnummern, die für Sie kostenlos sind hier selbst eingeben.\n
+        Capricorn verwendet die abgehenden Gespräche an diese Nummern nicht für die Berechnung der verbrauchten Freiminuten.</string>
+    <string name="pref_Calls_FreeNumb_Info2">Capricorn leitet diese Nummern nicht an Dritte weiter, kennt die Eigentümer nicht und verwendet die Nummern nur für die interne Berechnung.\n
+        Diese Nummern sind daher keine personenbezogene Daten für Capricorn.</string>
+    <string name="pref_Calls_FreeNumb_Info3">Nach der De-Installation von Capricorn sind alle Daten inklusive dieser Telefon-Nummern vollständig gelöscht.</string>
+    <string name="pref_CallsLog_Out_Min_Key" translatable="false">pref_CallsLog_Out_Min_Key</string>
+    <string name="pref_CallsLog_Out_Num_Key" translatable="false">pref_CallsLog_Out_Num_Key</string>
+    <string name="pref_CallsLog__In_Min_Key" translatable="false">pref_CallsLog__In_Min_Key</string>
+    <string name="pref_CallsLog__In_Num_Key" translatable="false">pref_CallsLog__In_Num_Key</string>
+    <string name="pref_CallsLog_MissNum_Key" translatable="false">pref_CallsLog_MissNum_Key</string>
+
+    <string name="pref_Calls_MaxVal_Key" translatable="false">pref_Calls_MaxVal_Key</string>
+    <string name="pref_Calls_MaxVal">Anzahl Freiminuten</string>
+    <string name="pref_Calls_MaxVal_Expl">Bitte geben Sie den Schwellwert für Freiminuten ein, bei dem Sie gewarnt werden wollen (z.B. den Wert Ihrer Freiminuten aus Ihrem Vertrag)</string>
+    <string name="pref_Calls_MaxVal_Sum">Anzahl der Freiminuten sind: </string>
+    <string name="pref_Calls_MaxVal_Default" translatable="false">100</string>
+    <string name="pref_Calls_MaxVal_Unit">Min</string>
+
+    <string name="pref_Calls_View_Key" translatable="false">pref_Calls_View_Key</string>
+    <string name="pref_Calls_View_Title">Anzeige der Anrufe</string>
+    <string name="pref_Calls_View_SumOn">noch übrige Freiminuten</string>
+    <string name="pref_Calls_View_SumOff">verbrauchte Freiminuten</string>
+
+    <string name="pref_wlanStartDate_Key" translatable="false">pref_wlanStartDate_Key</string>
+    <string name="pref_wlanStartDate_Title">Start der Messung am:</string>
+    <string name="pref_wlanOffset_Key" translatable="false">pref_wlanOffset_Key</string>
+    <string name="pref_wlanRefVal_Title">Startwert für WLAN Daten</string>
+    <string name="pref_wlanRefVal_Explanation">Bitte geben Sie den Startwert ein. Das ist der Wert der zu den gemessenen Daten addiert wird.</string>
+    <string name="pref_wlanRefVal_Sum">Startwert für WLAN Daten ist: </string>
+    <string name="pref_wlanRefVal_Default" translatable="false">0</string>
+    <string name="pref_wlanRefVal_Unit">MByte</string>
+
+    <string name="pref_General_Cat_Title">Allgemein</string>
+    <string name="pref_View_Cat_Title">Widget Anzeigepositionen</string>
+    <string name="pref_View_Scr_Title">Position 1 bis 7 (von links nach rechts)</string>
+
+    <string name="pref_View1_Key" translatable="false">pref_View1_Key</string>
+    <string name="pref_View1_Title">Position 1 (links)</string>
+    <string name="pref_View1_Default" translatable="false">6</string>
+    <string name="pref_View1_Sum">Angezeigte Resource 1:</string>
+
+    <string name="pref_View2_Key" translatable="false">pref_View2_Key</string>
+    <string name="pref_View2_Title">Position 2</string>
+    <string name="pref_View2_Default" translatable="false">5</string>
+    <string name="pref_View2_Sum">Angezeigte Resource 2:</string>
+
+    <string name="pref_View3_Key" translatable="false">pref_View3_Key</string>
+    <string name="pref_View3_Title">Position 3</string>
+    <string name="pref_View3_Default" translatable="false">2</string>
+    <string name="pref_View3_Sum">Angezeigte Resource 3:</string>
+
+    <string name="pref_View4_Key" translatable="false">pref_View4_Key</string>
+    <string name="pref_View4_Title">Position 4</string>
+    <string name="pref_View4_Default" translatable="false">1</string>
+    <string name="pref_View4_Sum">Angezeigte Resource 4:</string>
+
+    <string name="pref_View5_Key" translatable="false">pref_View5_Key</string>
+    <string name="pref_View5_Title">Position 5</string>
+    <string name="pref_View5_Default" translatable="false">3</string>
+    <string name="pref_View5_Sum">Angezeigte Resource 5:</string>
+
+    <string name="pref_View6_Key" translatable="false">pref_View6_Key</string>
+    <string name="pref_View6_Title">Position 6</string>
+    <string name="pref_View6_Default" translatable="false">7</string>
+    <string name="pref_View6_Sum">Angezeigte Resource 6:</string>
+
+    <string name="pref_View7_Key" translatable="false">pref_View7_Key</string>
+    <string name="pref_View7_Title">Position 7 (großes Widget rechts)</string>
+    <string name="pref_View7_Default" translatable="false">4</string>
+    <string name="pref_View7_Sum">Angezeigte Resource 7:</string>
+
+    <string name="pref_Language_Key" translatable="false">pref_Language_Key</string>
+    <string name="pref_Language_Title">Sprache</string>
+    <string name="pref_Language_Default">Deutsch</string>
+    <string name="pref_Language_Sum">Die App unterstützt Deutsch und Englisch. Ändern der Sprache über die Android Einstellungen. Gerät ist aktuell eingestellt auf:</string>
+
+    <string name="pref_Help_Key" translatable="false">pref_Help_Key</string>
+    <string name="pref_Help_Title">Hilfe</string>
+
+    <string name="pref_Info_Key" translatable="false">pref_Info_Key</string>
+    <string name="pref_Info_Cat_Title">Info über</string>
+    <string name="pref_Info_Title">Capricorn System Resource App\nCopyright \u00A9 2014 – 2018 F. Leins.\nVersion: "</string>
+
+    <string name="pref_Settings_Title">Einstellungen</string>
+
+    <string name="pref_BckgrdTransp_Title">Widget Transparenz</string>
+    <string name="pref_BckgrdTransp_Expl">Bitte stellen Sie die gewünschte Transparenz für den Widget-Hintergrund in Prozent ein. (0% = deckend, 100% = nicht sichtbar)</string>
+    <string name="pref_BckgrdTransp_Sum">Widget Transparenz:</string>
+    <string name="pref_BckgrdTransp_Unit" translatable="false">%</string>
+    <string name="pref_BckgrdTransp_Default" translatable="false">50</string>
+
+
+    <string name="DefaultText">tbd</string>
+    <string name="blankChr" translatable="false">\u0020</string>
+    <string name="Tab" translatable="false">\u0009</string>
+    <string name="DontKnow" translatable="false">\u003F</string>
+    <string name="NotKnown">nicht bekannt</string>
+
+    <string name="pref_CurVal_Key" translatable="false">pref_CurVal_Key</string>
+    <string name="pref_CurVal_Title">Aktuelle Werte im Detail"</string>
+    <string name="pref_CurVal_Title_Standard">Standardwerte</string>
+    <string name="pref_CurVal_LastBoot">Letzter Geräte-Neustart:</string>
+    <string name="pref_CurVal_MobileMeasured_Key" translatable="false">pref_CurVal_MobileMeasured_Key</string>
+    <string name="pref_CurVal_MobileMeanPerDay_Key" translatable="false">pref_CurVal_MobileMeanPerDay_Key</string>
+    <string name="pref_CurVal_MobileTotal_Key" translatable="false">pref_CurVal_MobileTotal_Key</string>
+    <string name="pref_CurVal_SDK_Key" translatable="false">pref_CurVal_SDK_Key</string>
+    <string name="pref_CurVal_FingerPrint_Key" translatable="false">pref_CurVal_FingerPrint_Key</string>
+    <string name="pref_CurVal_Title_DeviceInfo">Geräte Information</string>
+    <string name="pref_CurVal_Title_SDK">SDK</string>
+    <string name="pref_CurVal_FingerPrint">Geräte Fingerabdruck:</string>
+    <string name="pref_CurVal_MobileDataInfo1">Mobile Daten</string>
+    <string name="pref_CurVal_MobileDataInfo2">gemessen seit letztem Geräte Neustart:</string>
+    <string name="pref_CurVal_MobileDataInfo3">Durchschnitt verbraucht:</string>
+    <string name="pref_CurVal_MobileDataInfo4">Gesamtwert vebraucht:</string>
+    <string name="pref_CurVal_WLANMeasured_Key" translatable="false">pref_CurVal_WLANMeasured_Key</string>
+    <string name="pref_CurVal_WLANDisplay_Key" translatable="false">pref_CurVal_WLANDisplay_Key</string>
+    <string name="pref_CurVal_WLANDataInfo1">WLAN Daten</string>
+    <string name="pref_CurVal_WLANDataInfo2">gemessen seit letztem Geräte Neustart:</string>
+    <string name="pref_CurVal_WLANDataInfo3">Anzeigewert:</string>
+    <string name="pref_CurVal_Total">Gesamt:</string>
+    <string name="pref_CurVal_Received">Empfangen:</string>
+    <string name="pref_CurVal_Sent">Gesendet:</string>
+    <string name="pref_CurVal_MobileMeanMax">Max / Tag:</string>
+    <string name="pref_CurVal_MobileMeanCur">Aktuell / Tag:</string>
+    <string name="pref_CurVal_MobileMax">Möglich bis heute:</string>
+    <string name="pref_CurVal_MobileCur">Ist bis heute:</string>
+    <string name="pref_CurVal_CallDataInfo1">Anrufe</string>
+    <string name="pref_CurVal_CallDataInfo2">Ausgehende Anrufe:</string>
+    <string name="pref_CurVal_CallDataInfo3">Eingehende Anrufe:</string>
+    <string name="pref_CurVal_CallDataInfo4">Verpasste Anrufe:</string>
+    <string name="pref_CurVal_CallDataInfo5">Berücksichtigte SMS:</string>
+    <string name="pref_CurVal_Call_Unit">Min</string>
+    <string name="pref_CurVal_Call_Incoming_Key" translatable="false">pref_CurVal_Call_Incoming_Key</string>
+    <string name="pref_CurVal_Call_Outgoing_Key" translatable="false">pref_CurVal_Call_Outgoing_Key</string>
+    <string name="pref_CurVal_Call_Missed_Key" translatable="false">pref_CurVal_Call_Missed_Key</string>
+
+    <string name="cpc_nd">nicht definiert</string>
+    <string name="cpc_proz" translatable="false">\u0089</string>
+
+    <string name="btn_capt_Std">Standard</string>
+    <string name="btn_capt_Mob">Daten</string>
+    <string name="btn_capt_Calls">Anrufe</string>
+    <string name="btn_capt_Wifi">WLAN</string>
+    <string name="btn_capt_Netwrk">Netzwerk</string>
+    <string name="btn_capt_Update">Aktualisieren</string>
+    <string name="pref_CurVal">Anzeige in der App</string>
+    <string name="Perm_Dlg_Title">" benötigt Zugriff"</string>
+    <string name="pref_CurVal_WLANDataInfo4">gemessen seit:</string>
+    <string name="pref_NetWrk_Caption">Netzwerkstatus</string>
+    <string name="pref_NetWrk_Status">Status</string>
+    <string name="pref_NetWrk_NoNetWrk">kein Netzwerk</string>
+    <string name="pref_NetWrk_NoNetWrkConn">keine Netzwerk Verbindung</string>
+    <string name="pref_NetWrk_Type">Typ</string>
+    <string name="pref_NetWrk_ip4">IPv4 Adresse</string>
+    <string name="pref_NetWrk_ip6">IPv6 Adresse</string>
+    <string name="pref_NetWrk_Rming">Roamingstatus</string>
+    <string name="pref_NetWrk_MobileTyp">Mobil Typ</string>
+    <string name="pref_On">An</string>
+    <string name="pref_Off">Aus</string>
+    <string name="pref_NetWrk_BSSID" translatable="false">BSSID</string>
+    <string name="pref_NetWrk_SSID" translatable="false">SSID</string>
+    <string name="pref_NetWrk_LinkSpeed">Max Geschw.</string>
+    <string name="pref_NetWrk_Frq">Frequenz</string>
+    <string name="NotWorking" translatable="false">n/w</string>
+    <string name="NotAvailable" translatable="false">n/a</string>
+    <string name="cpc_First_Run" translatable="false">cpc_First_Run</string>
+
+    <string name="Oreo_Dlg_Message_Title">Info für Android 8 (Oreo) Geräte</string>
+    <string name="Oreo_Dlg_Message_Msg">Änderung beim Widget-Verhalten
+        \n\nWenn Widget Anzeige einfriert:
+        \n- 1 x Touch Aktualisierung der Anzeige
+        \n- 2 x Touch öffnet Einstellungen
+        \n\nWenn sich Anzeige  aktualisiert dann wie immer
+        \n- 1 x Touch öffnet Einstellungen "</string>
+    <string name="title_activity_cpc__settings__free__phone_number">Cpc_Settings_Free_PhoneNumber
+    </string>
+
+
+</resources>

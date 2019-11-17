@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cpc_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="de.franky.l.capricorn.Cpc_Main">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2" >
+
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnStd"
+            android:textOff="@string/btn_capt_Std"
+            android:textOn="@string/btn_capt_Std"
+            android:checked="true"
+            android:textAllCaps="false"
+            android:background="@drawable/cpc_btn_main_bckgrd_land"
+            android:textColor="@color/cpc_btn_main_textcolor"
+            android:layout_weight="1" />
+
+        <ToggleButton
+            android:textOff="@string/btn_capt_Mob"
+            android:textOn="@string/btn_capt_Mob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMobile"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:background="@drawable/cpc_btn_main_bckgrd_land"
+            android:textColor="@color/cpc_btn_main_textcolor" />
+
+        <ToggleButton
+            android:textOff="@string/btn_capt_Wifi"
+            android:textOn="@string/btn_capt_Wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnWifi"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:background="@drawable/cpc_btn_main_bckgrd_land"
+            android:textColor="@color/cpc_btn_main_textcolor" />
+
+        <ToggleButton
+            android:id="@+id/btnNetwrk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/cpc_btn_main_bckgrd_land"
+            android:textAllCaps="false"
+            android:textColor="@color/cpc_btn_main_textcolor"
+            android:textOff="@string/btn_capt_Netwrk"
+            android:textOn="@string/btn_capt_Netwrk" />
+<!--
+        <ToggleButton
+            android:id="@+id/btnCalls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/cpc_btn_main_bckgrd_land"
+            android:textAllCaps="false"
+            android:textColor="@color/cpc_btn_main_textcolor"
+            android:textOff="@string/btn_capt_Calls"
+            android:textOn="@string/btn_capt_Calls" />
+-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_Update"
+            android:text="@string/btn_capt_Update"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:textAllCaps="false"
+            android:background="@drawable/cpc_btn_main_bckgrd_port"
+            android:textColor="@color/cpc_btn_main_textcolor" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/fl_frag_container">
+                <fragment
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:name="de.franky.l.capricorn.Cpc_frag_std"
+                    android:id="@+id/cpc_frag_CurVal" />
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/cpc_viewpager"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+            </FrameLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

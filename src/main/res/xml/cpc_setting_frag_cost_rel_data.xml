@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<EditTextPreference 
+	    android:icon="@drawable/cpc_cost_rel_data_frag"/>
+    
+   		<ListPreference 
+			android:key="@string/pref_MobileOptions_Key"
+			android:title="@string/pref_MobileOptions_Title" 
+			android:entries="@array/mobDataOptions"
+			android:entryValues="@array/mobDataOptions_Values"
+			android:defaultValue="@string/pref_MobileOptions_Default"
+			android:summary="@string/pref_MobileOptions_Sum" />
+
+		<de.franky.l.capricorn.Cpc_Dlg_NuPi_MobData_Cycle
+			android:key="@string/pref_NuPiCycle_Key" 
+			android:title="@string/pref_MobileCycle_Title"
+			android:persistent="true" 
+			android:summary="@string/pref_MobileCycle_Sum1" />
+
+		<ListPreference 
+		    android:key="@string/pref_MobileCycleOption_Key"
+			android:title="@string/pref_MobileCycleOption_Title"
+			android:entries="@array/mobDataCycleOptions" 
+			android:entryValues="@array/mobDataCycleOptions_Indices"
+			android:defaultValue="@string/pref_MobileCycleOption_Default"
+			android:summary="@string/pref_MobileCycleOption_Sum" />
+
+				
+		<PreferenceCategory
+			android:title="@string/pref_CurVal_MobileDataInfo1">
+							
+			<ListPreference 
+				android:icon="@drawable/cpc_mobdata_gen_frag"
+				android:selectable="false" />
+	
+			<SwitchPreference 
+			    android:key="@string/pref_MobileMonitoring_Key"
+		    	android:title="@string/pref_MobileMonitoring_Title"
+				android:summaryOn="@string/pref_Monitoring_SumOn"
+				android:summaryOff="@string/pref_Monitoring_SumOff" />
+			<SwitchPreference
+			    android:key="@string/pref_MobileView_Key"
+			    android:title="@string/pref_MobileView_Title"
+			    android:entries="@array/pref_MobileView"
+				android:summaryOn="@string/pref_MobileView_SumOn"
+				android:summaryOff="@string/pref_MobileView_SumOff" />
+
+			<de.franky.l.capricorn.Cpc_Dlg_NuPi_MobData_MaxVal
+				android:key="@string/pref_NuPiMax_Mob_Key" 
+				android:title="@string/pref_MobileMaxVal"
+				android:persistent="true"
+				android:summary="@string/pref_MobileMaxVal_Sum" />
+			<de.franky.l.capricorn.Cpc_Dlg_NuPi_MobData_RefVal
+				android:key="@string/pref_NuPiRef_Mob_Key" 
+				android:title="@string/pref_MobileRefVal_Title"
+				android:persistent="true"
+				android:summary="@string/pref_MobileRefVal_Sum" />
+		</PreferenceCategory>
+<!--
+		<PreferenceCategory
+			android:title="@string/pref_CurVal_CallDataInfo1">
+			<ListPreference 
+				android:icon="@drawable/cpc_phone_gen_frag"
+				android:selectable="false" />
+			<SwitchPreference 
+			    android:key="@string/pref_CallsMonitoring_Key"
+		    	android:title="@string/pref_CallsMonitoring_Title"
+				android:summaryOn="@string/pref_Monitoring_SumOn"
+				android:summaryOff="@string/pref_Monitoring_SumOff" />
+
+			<Preference
+				android:key="@string/pref_Calls_FreeNumb_Key"
+				android:summary="@string/pref_Calls_FreeNumb_Sum"
+				android:title="@string/pref_Calls_FreeNumb_Title">
+				<intent
+					android:action="Cpc_Settings_Free_PhoneNumber"
+					android:targetPackage="de.franky.l.capricorn"
+					android:targetClass="de.franky.l.capricorn.Cpc_Settings_Free_PhoneNumber"/>
+			</Preference>
+			<SwitchPreference
+				android:key="@string/pref_CallsIntegrateSMS_Key"
+				android:title="@string/pref_CallsIntegrateSMS_Title"
+				android:summaryOn="@string/pref_CallsIntegrateSMS_SumOn"
+				android:summaryOff="@string/pref_CallsIntegrateSMS_SumOff" />
+
+			<SwitchPreference
+			    android:key="@string/pref_Calls_View_Key"
+			    android:title="@string/pref_Calls_View_Title"
+				android:summaryOn="@string/pref_Calls_View_SumOn"
+				android:summaryOff="@string/pref_Calls_View_SumOff" />
+
+			<de.franky.l.capricorn.Cpc_Dlg_NuPi_Calls_MaxVal
+				android:key="@string/pref_NuPiMax_Calls_Key" 
+				android:title="@string/pref_Calls_MaxVal"
+				android:persistent="true"
+				android:summary="@string/pref_Calls_MaxVal_Sum" />
+			<de.franky.l.capricorn.Cpc_Dlg_NuPi_Calls_RefVal
+				android:key="@string/pref_NuPiRef_Calls_Key" 
+				android:title="@string/pref_Calls_RefVal_Title"
+				android:persistent="true" 
+				android:summary="@string/pref_Calls_RefVal_Sum" />
+		</PreferenceCategory>		
+-->
+</PreferenceScreen>

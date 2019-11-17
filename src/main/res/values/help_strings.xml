@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   	<string name="pref_GeneralHelp1">Capricorn ist eine App zur Anzeige von bis zu 8 verschiedenen Systemresourcen.
+		Diese Systemresourcen können außerdem mit Widgets auf dem Homescreen dargestellt werden.
+	</string>
+
+	<string name="pref_GeneralHelp2">
+		Anzeigemöglichkeiten:\n\n1. über die App.\nDazu kann man die entsprechende Kategorie der Resource über Tabs auswählen.
+		Um die Daten in der aktuellen Ansicht zu aktualisieren, einfach auf den Button "Aktualisieren" drücken.
+		Die Schriftgröße in der App lässt sich unabhängig von der schriftgröße der Widgets in den Einstellungen anpassen.
+	</string>
+	<string name="pref_GeneralHelp3">
+		2. Mit Hilfe von Widgets.\nDies ist der Haupt Anwendungsfall von Capricorn. Es gibt 3 verschiedene Widgetgrößen zu Auswahl.
+		Mit 3 (2 spaltig), 5 (3 spaltig) oder 7 (4 spaltig) verschiedenen Anzeigeoptionen, die frei konfgurierbar sind.
+		Alle Widgets sind auf dem Homescreen jeweils eine Zeile hoch.
+	</string>
+
+	<string name="pref_GeneralHelp4">
+		Die Widgets sind horizontal und vertikal skalierbar (wenn das vom Gerät und vom System unterstützt wird),
+		wenn die Systemskalierung nicht funktioniert ist die manuelle Skalierung möglich. Die Icons skalieren mit der Widget-Größe automatisch,
+		die Schriftgröße kann man einstellen.
+	</string>
+    <string name="pref_GeneralHelp5">Unterstützte Systemresourcen:\n
+			- Aktueller Akku Stand in \u0025\n
+			- Freier RAM Speicher in (GB, MB, KB, Byte)\n
+			- Freier interner Speicher in (GB, MB, KB, Byte)\n
+			- Freier externer Speicher (entnehmbare SD-Karte) in (GB, MB, KB, Byte)\n
+			- Nutzung mobiler Daten\n
+			- Verbrauch von Freiminuten\n
+			- Übertragene WLAN-Daten
+	</string>
+	<string name="pref_GeneralHelp6">
+			- CPU Nutzung systemweit in \u0025\n(funktioniert leider bei Android 8.0 (Oreo) Geräten zur Zeit noch nicht. Es wird \u0022n/w\u0022 angezeigt)\n
+			- Bildschirmhelligkeit, als Einstellwert des Schiebereglers aus den Einstellungen. Bei automatisch eingestellter Helligkeit kann der tatsächliche Wert abweichen.\n
+	</string>
+	<string name="pref_GeneralHelp7">
+		Um den Verbrauch von Freiminuten auswerten zu können, benötigt die App Zugriff auf die Telefondaten und SMS.
+		Capricorn startet keine Anrufe und hört keine Anrufe ab und sendet oder liest auch keine SMS
+		Die Daten werden nur verwendet um Freiminuten korrekt berechnen zu können.
+	</string>
+
+	<string name="pref_CostRelDataHelp1">Einstellungen für kostenrelevante Daten (Anrufe \u0026 Daten)\n\nCapricorn
+		liest keinerlei personenbezogene Daten aus irgendwelchen Quellen des Geräts oder des Providers.
+			Es berechnet alle Daten nur über die eingestellten Werte und die vom Gerät zur Verfügung gestellten Daten.
+	</string>
+	<string name="pref_CostRelDataHelp2">Das bedeutet für mobile- und WLAN-Daten, dass das Gerät Daten bis maximal seit dem letzten Bootvorgang zur Verfügung stellt.
+			\nBei Anrufen liest Capricorn das Anrufprotokoll aus.
+			Wenn dieses geleert wird, kann Capricorn keine Daten bzgl. Anrufe berechnen.</string>
+   	<string name="pref_CostRelDataHelp3">Daher ist es notwendig für die korrekte Berechnung ein paar Einstellungen vorzunehmen:\n\n
+   	    											- Wie soll die Berechnung erfolgen\n \u0009\u002D\u002D ohne Korrektur\n \u0009\u002D\u002D  mit Referenzwert\n \u0009\u002D\u002D  mit Abrechnungszeitraum des Providers\n
+													- Datum für den nächsten Zykluswechsel\n
+													- Zeitraster (monatlich, 30-Tage)\n
+													- Überwachung der Daten aktivieren</string>
+	<string name="pref_CostRelDataHelp4">	  \u0020- Anzeige von verbrauchten oder übrigen Daten\n
+													- High speed Limit für mobile Daten\n(oder persönlicher Maxwert wenn keine Flat)\n
+													- Bereits verbrauchte Daten, wenn der Start der Messung in einem laufenden Zyklus erfolgt\n
+	</string>
+	<string name="pref_CostRelDataHelp5">	- Überwachung der Anrufe aktivieren\n
+											- Anzeige verbrauchte oder übrige Freiminuten\n
+											- Anzahl Freiminuten (oder persönlicher Maxwert wenn keine Freiminuten oder keine Anruf-Flat)\n
+											- SMS zu den Freiminuten addieren, bei entspr. Vertägen\n
+											- Bereits verbrauchte Freiminuten und ggf. SMS, wenn der Start der Messung in einem laufenden Zyklus erfolgt</string>
+	<string name="pref_CostRelDataHelp6">Verbrauchte Daten und Anrufe werden positiv, übrige Daten und Anrufe werden negativ dargestellt.\n\nWenn
+		die Überwachung der Daten oder die Überwachung der Freiminuten aktiviert ist,
+		zeigt das Widget den Verbrauch im Rahmen einer linearen Berechnung über den Abrechnungszeitraum als grünen Punkt an.</string>
+
+	<string name="pref_CostRelDataHelp7">Übersteigt der aktuelle Verbrauch den berechneten Verbrauch zeigt Capricorn entsprechend einen roten Punkt.</string>
+
+	<string name="pref_WlanHelp1">Angezeigt wird immer die Summe der gesendeten und empfangenen Daten.
+		Es können verschiedene Startwerte verwendet werden:\n\nStartwert für WLAN-Daten:</string>
+	<string name="pref_WlanHelp2">Bei der Eingabe eines Wertes (0 bis 9999 TByte) zeigt Capricorn die WLAN-Daten ab diesem Zeitpunkt plus Startwert an.\n\nBei
+		Eingabe von „1 Byte“ führt Capricorn keine Anpassung durch und zeigt die übertragenen WLAN-Daten ab dem letzten Bootvorgang an.
+	</string>
+	<string name="pref_WidViewPosHelp1">
+		Die Position der Anzeigen im Widget lassen sich frei definieren.
+		Bei den größeren Widget-Versionen werden die Einstellungen der jeweils kleineren Version übernommen.</string>
+	<string name="pref_WidViewPosHelp2">
+		- 2x1 -> 1 bis 3 (klein)\n- 3x1 -> 1 bis 5 (mittel)\n- 4x1 -> 1 bis 7 (große)\n</string>
+	<string name="pref_CurValHelp1">Alle Resourcen können auch in der App selbst angezeigt werden.
+		Die Resourcen sind gruppiert in Allgemein, Daten, Anrufe, WLAN und Netzwerk.\nÜber entsprechende Buttons kann man die jeweilige Kategorie auswählen.</string>
+	<string name="pref_CurValHelp2">Die Werte können über einen entsprechenden Button aktualisiert angezeigt werden.</string>
+
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:icon="@drawable/capricorn_frag" 
+	    android:title="@string/pref_General_Cat_Title"
+        android:fragment="de.franky.l.capricorn.Cpc_Settings_Frag_Gen">
+    </header>
+    <header 
+        android:icon="@drawable/cpc_view_pos_frag" 
+        android:title="@string/pref_View_Cat_Title"
+	    android:summary="@string/pref_View_Scr_Title"
+        android:fragment="de.franky.l.capricorn.Cpc_Settings_Frag_Wid_View_Pos">
+    </header>
+    <header
+        android:icon="@drawable/cpc_cost_rel_data_frag" 
+        android:title="@string/pref_CostRelevantData_Title"
+        android:fragment="de.franky.l.capricorn.Cpc_Settings_Frag_Cost_Rel_Data">
+    </header>
+    <header 
+        android:icon="@drawable/cpc_wlan_frag"
+        android:title="@string/pref_CurVal_WLANDataInfo1"
+        android:fragment="de.franky.l.capricorn.Cpc_Settings_Frag_Wlan">
+    </header>
+</preference-headers>

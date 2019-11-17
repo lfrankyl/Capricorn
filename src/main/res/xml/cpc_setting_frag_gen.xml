@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<EditTextPreference 
+	    android:icon="@drawable/capricorn_frag"/>
+    
+	<ListPreference 
+	    android:key="@string/pref_Intervall_Key"
+		android:title="@string/pref_Intervall_Title" 
+		android:entries="@array/UpdateIntervall"
+		android:entryValues="@array/UpdateIntervall_Values"
+		android:defaultValue="@string/pref_Intervall_Default"
+		android:summary="@string/pref_Intervall_Sum" />
+
+	<ListPreference 
+	    android:key="@string/pref_TextSize_Key"
+		android:title="@string/pref_TextSize_Title" 
+		android:entries="@array/pref_TextSize"
+		android:entryValues="@array/pref_TextSize_Values"
+		android:defaultValue="@string/pref_TextSize_Default"
+		android:summary="@string/pref_TextSize_Sum" />
+
+	<ListPreference
+		android:key="@string/pref_TextSizeApp_Key"
+		android:title="@string/pref_TextSizeApp_Title"
+		android:entries="@array/pref_TextSize"
+		android:entryValues="@array/pref_TextSize_Values"
+		android:defaultValue="@string/pref_TextSizeApp_Default"
+		android:summary="@string/pref_TextSizeApp_Sum" />
+
+	<ListPreference
+		android:key="@string/pref_WdgtFontcolor_Key"
+		android:title="@string/pref_WdgtFontcolor_Title"
+		android:entries="@array/pref_WidgetFontColor"
+		android:entryValues="@array/pref_WidgetFontColor_Values"
+		android:defaultValue="@string/pref_WdgtFontcolor_Default"
+		android:summary="@string/pref_WdgtFontcolor_Sum" />
+
+	<ListPreference
+		android:key="@string/pref_Background_Key"
+		android:title="@string/pref_Background_Title"
+		android:entries="@array/pref_Background"
+		android:entryValues="@array/pref_Background_Values"
+		android:defaultValue="@string/pref_Background_Default"
+		android:summary="@string/pref_Background_Sum" />
+
+	<de.franky.l.capricorn.Cpc_Dlg_NuPi_Bckgrd_Transpcy
+		android:key="@string/pref_NuPi_BckgrdTransp_Key"
+		android:title="@string/pref_BckgrdTransp_Title"
+		android:persistent="true"
+		android:summary="@string/pref_BckgrdTransp_Sum" />
+
+	<ListPreference
+	    android:key="@string/pref_Language_Key"
+		android:title="@string/pref_Language_Title" 
+		android:entries="@array/viewlanguage"
+		android:entryValues="@array/viewlanguage_Values"
+		android:defaultValue="@string/pref_Language_Default"
+		android:summary="@string/pref_Language_Sum"
+		android:selectable="false" />
+
+</PreferenceScreen>

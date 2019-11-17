@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <color name="bckgrd_invisi"       >#001E1E2D</color>
+ <color name="bckgrd_transp_dk"    >#551E1E2D</color>
+ <color	name="bckgrd_opaque_dk"    >#1E1E2D</color>
+ <color name="bckgrd_transp_lt"    >#55f1edec</color>
+ <color	name="bckgrd_opaque_lt"    >#f1edec</color>
+ <color name="cpc_main_blue"       >#51b0d3</color>
+ <color name="cpc_main_text"       >#d5e9f2</color>
+</resources>
